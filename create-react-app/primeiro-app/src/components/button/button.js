@@ -1,9 +1,15 @@
 import React, { Component } from "react";
 import "./button.css";
-
+const sayHello = () => {
+  console.log("Hello world!");
+};
 class Button extends Component {
   render() {
-    return <button class="btn">{this.props.label}</button>;
+    return (
+      <button className="btn" onClick={sayHello}>
+        {this.props.label}
+      </button>
+    );
   }
 }
 
