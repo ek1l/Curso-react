@@ -1,0 +1,13 @@
+.card {
+    background-color: red;
+    color: #FFF;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card.active {
+    text-transform: uppercase;
+    color: black;
+}
